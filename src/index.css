@@ -10,6 +10,21 @@ body {
   font-family: var(--secondary-font);
 }
 
+h1 {
+  font-family: var(--primary-font);
+  font-size: 100px;
+}
+
+h2 {
+  font-family: var(--primary-font);
+  font-size: 60px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

@@ -1,0 +1,16 @@
+.hero {
+  background: var(--primary-color);
+  padding: 120px 20px 100px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-family: var(--secondary-font);
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.hero p {
+  font-family: var(--secondary-font);
+  font-size: 36px;
+}
