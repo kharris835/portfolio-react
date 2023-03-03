@@ -1,0 +1,20 @@
+.logo {
+  max-height: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 12px;
+}
+
+nav a:hover,
+nav li a.active {
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
