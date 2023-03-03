@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 export default function NavBar() {
   return (
     <div className="navigation fixed-top bg-white">
       <div className="container">
-        <nav className="d-flex justify-content-between align-items-center mt-1 mb-1">
+        <nav className="d-flex justify-content-between align-items-center mt-2 mb-2">
           <a href="/">
             <img
               src="images/logo.png"
@@ -22,24 +23,18 @@ export default function NavBar() {
           </a>
           <ul className="m-0 p-0">
             <li>
-              <a href="/" className="active" title="Homepage">
+              <Link to="/" className="active">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about.html" title="About Kelsie">
-                About
-              </a>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <a href="/work.html" title="Kelsie's Projects">
-                Projects
-              </a>
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <a href="/contact.html" title="Contact Kelsie">
-                Contact
-              </a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
