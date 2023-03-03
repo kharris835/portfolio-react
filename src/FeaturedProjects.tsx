@@ -7,11 +7,11 @@ export default function Home() {
       id: 1,
       title: "Dictionary App",
       description:
-        "A dictionary application created for SheCodes React Add-on.  I used a dictionary API and am image API to render a word with its phonetics, definitions, synonyms, and images.",
+        "A dictionary application created for the SheCodes React Add-on course.  Leveraging dictionary and image APIs, I integrated the functionality to render words, along with their phonetics, definitions, synonyms, and images.",
       image: {
         src: "images/dictionary.png",
         height: 400,
-        width: 449,
+        width: 448,
       },
       tools: "React, TypeScript, HTML, and CSS",
       website: "https://ornate-sunshine-689bc4.netlify.app/",
@@ -19,7 +19,8 @@ export default function Home() {
     {
       id: 2,
       title: "Weather App",
-      description: "abc123123",
+      description:
+        "A weather application created for the SheCodes Plus course.  I utilized a weather API to render the current weather and daily forecast for your current location or a searched location.",
       image: {
         src: "images/react-weather.png",
         height: 300,
@@ -31,7 +32,8 @@ export default function Home() {
     {
       id: 3,
       title: "Portfolio Website",
-      description: "abc",
+      description:
+        "A portfolio designed to showcase my range of projects and skills.  This website is a comprehensive representation of my abilities, highlighting my achievements and techincal competencies.",
       image: {
         src: "images/coming-soon.jpeg",
         height: 300,
@@ -43,17 +45,15 @@ export default function Home() {
   ];
   return (
     <div>
-      <ul>
-        {featuredProjects.map(function (project, index) {
-          return (
-            <ProjectCard
-              key={project.id}
-              project={project}
-              standardLayout={index % 2 === 0}
-            />
-          );
-        })}
-      </ul>
+      {featuredProjects.map(function (project, index) {
+        return (
+          <ProjectCard
+            key={project.id}
+            project={project}
+            standardLayout={index % 2 === 0}
+          />
+        );
+      })}
     </div>
   );
 }

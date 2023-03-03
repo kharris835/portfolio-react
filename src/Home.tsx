@@ -9,7 +9,9 @@ export default function Home() {
       <p className="text-center m-5">
         Check out a few of my featured projects!
       </p>
-      <FeaturedProjects />
+      <div className="d-flex justify-content-center">
+        <FeaturedProjects />
+      </div>
     </div>
   );
 }
