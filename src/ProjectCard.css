@@ -1,0 +1,10 @@
+@media (max-width: 991.98px) {
+  .website-link {
+    display: block;
+    align-items: center;
+  }
+  .project-card img {
+    width: 75vw;
+    height: auto;
+  }
+}
