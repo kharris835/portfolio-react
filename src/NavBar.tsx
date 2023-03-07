@@ -4,7 +4,7 @@ import "./NavBar.css";
 
 export default function NavBar() {
   return (
-    <div className="navigation fixed-top bg-white">
+    <div className="navigation fixed-top bg-white shadow">
       <div className="container">
         <nav className="d-flex justify-content-between align-items-center mt-2 mb-2">
           <a href="/">
