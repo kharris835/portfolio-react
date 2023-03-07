@@ -1,6 +1,6 @@
 .hero {
   background: var(--primary-color);
-  padding: 120px 20px 100px;
+  padding: 60px 20px;
   text-align: center;
 }
 
@@ -37,4 +37,13 @@
   font-size: 18px;
   padding: 15px 30px;
   line-height: 2;
+}
+
+@media (max-width: 991.98px) {
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero h2 {
+    font-size: 28px;
+  }
 }

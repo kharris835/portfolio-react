@@ -5,8 +5,8 @@ import FeaturedProjects from "./FeaturedProjects";
 export default function Home() {
   return (
     <div>
-      <Hero />;
-      <p className="text-center m-5">
+      <Hero />
+      <p className="text-center mt-5">
         Check out a few of my featured projects!
       </p>
       <div className="d-flex justify-content-center">
