@@ -12,7 +12,7 @@ export default function Hero() {
       <h2 className="mb-5">a front-end developer based in Colorado</h2>
       <div className="d-flex gap-2 justify-content-center">
         <button
-          className="btn btn-branding"
+          className="btn btn-branding btn-hero"
           title="GitHub Link"
           onClick={() => window.open("https://github.com/kharris835")}
         >

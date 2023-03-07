@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <p className="text-center mt-5">
+      <p className="text-center mt-5 fs-5">
         Check out a few of my featured projects!
       </p>
       <div className="d-flex justify-content-center">
