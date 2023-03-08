@@ -3,20 +3,21 @@ import "./About.css";
 
 export default function About() {
   return (
-    <div className="about row gap-2 align-items-center">
-      <div className="col-7 mt-5">
+    <div className="about row gap-2 align-items-center d-flex flex-wrap">
+      <div className="col-md-7 mt-5">
         <p className="mb-1 about-eyebrow">About</p>
         <h1 className="mb-0">Kelsie Harris</h1>
-        <h2 className="mb-5">
+        <h2 className="">
           a self-taught, front-end developer based in Colorado
         </h2>
       </div>
-      <div className="col d-flex flex-wrap justify-content-center p-5">
+      <div className="col justify-content-center p-5">
         <img
           src="images/kelsie4.png"
           alt="Kelsie Harris Rowing"
-          className="personal-image shadow rounded"
+          className="personal-image shadow rounded img-fluid"
           width="300"
+          height="auto"
         />
       </div>
       <p className="about-description">
@@ -62,7 +63,7 @@ export default function About() {
           </li>
         </ul>
       </p>
-      <p>
+      <p className="about-description">
         In my previous roles as an engineer in medical device design and
         aerospace manufacturing, I developed a keen eye for detail and a deep
         understanding of the importance of quality control. These skills have

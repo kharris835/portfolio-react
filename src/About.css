@@ -21,3 +21,20 @@
 .personal-image {
   border: 5px solid var(--primary-color);
 }
+
+@media (max-width: 991.98px) {
+  .about h1 {
+    font-size: 48px;
+  }
+  .about h2 {
+    font-size: 28px;
+  }
+  .about {
+    text-align: center;
+    padding: 20px 10px;
+  }
+  .about-description {
+    text-align: left;
+    padding: 0px 24px;
+  }
+}
