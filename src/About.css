@@ -1,0 +1,23 @@
+.about {
+  padding: 60px 80px;
+}
+
+.about h2 {
+  font-family: var(--secondary-font);
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.about-eyebrow {
+  font-family: var(--secondary-font);
+  font-size: 36px;
+  color: var(--secondary-color);
+}
+
+.about-description {
+  font-size: 16px;
+}
+
+.personal-image {
+  border: 5px solid var(--primary-color);
+}
