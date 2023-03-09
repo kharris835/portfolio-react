@@ -19,7 +19,7 @@ export default function Hero() {
           GitHub
         </button>
         <button
-          className="btn btn-branding"
+          className="btn btn-secondary"
           title="Contact Page Link"
           onClick={() => navigate("/contact")}
         >

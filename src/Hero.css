@@ -19,12 +19,26 @@
   width: 162px;
 }
 
-.btn-branding {
-  background: var(--secondary-color);
+.btn-branding,
+.btn-secondary {
   border-radius: 4;
   color: white;
   font-size: 18px;
   padding: 15px 30px;
+}
+
+.btn-branding {
+  background: var(--secondary-color);
+}
+
+.btn-secondary {
+  background: rgb(81, 81, 81);
+}
+
+.btn-secondary:hover {
+  color: rgb(81, 81, 81);
+  border: 1px solid rgb(81, 81, 81);
+  background: var(--primary-color);
 }
 
 .btn-branding:hover {
