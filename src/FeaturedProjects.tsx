@@ -10,7 +10,7 @@ export default function Home() {
         "A dictionary application created for the SheCodes React Add-on course.  Leveraging dictionary and image APIs, I integrated the functionality to render words, along with their phonetics, definitions, synonyms, and images.",
       image: {
         src: "images/dictionary.png",
-        height: 400,
+        height: "auto",
         width: 448,
       },
       tools: "React, TypeScript, HTML, and CSS",
@@ -23,7 +23,7 @@ export default function Home() {
         "A weather application created for the SheCodes Plus course.  I utilized a weather API to render the current weather and daily forecast for your current location or a searched location.",
       image: {
         src: "images/react-weather.png",
-        height: 300,
+        height: "auto",
         width: 455,
       },
       tools: "React, JavaScript, HTML, and CSS",
@@ -36,7 +36,7 @@ export default function Home() {
         "A portfolio designed to showcase my range of projects and skills.  This website is a comprehensive representation of my abilities, highlighting my achievements and techincal competencies.",
       image: {
         src: "images/coming-soon.jpeg",
-        height: 300,
+        height: "auto",
         width: 300,
       },
       tools: "React, TypeScript, HTML, and CSS",
