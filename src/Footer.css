@@ -1,0 +1,27 @@
+footer {
+  margin-top: 40px;
+}
+
+footer a {
+  font-size: 28px;
+  color: var(--secondary-color);
+  margin: 0 20px;
+}
+
+.footer,
+.footer a {
+  font-size: 16px;
+}
+
+.circle-icon {
+  padding: 14px;
+  background: var(--primary-color);
+  border-radius: 50%;
+}
+
+.circle-icon:hover {
+  background: var(--secondary-color);
+  color: white;
+  transition: all 100ms ease-in-out;
+  cursor: pointer;
+}
