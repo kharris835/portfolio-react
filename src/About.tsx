@@ -13,7 +13,7 @@ export default function About() {
       </div>
       <div className="col justify-content-center p-5">
         <img
-          src="images/kelsie4.png"
+          src="images/me.png"
           alt="Kelsie Harris Rowing"
           className="personal-image shadow rounded img-fluid"
           width="300"
