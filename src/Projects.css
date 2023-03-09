@@ -1,0 +1,27 @@
+.projects {
+  padding: 60px 80px;
+}
+
+.projects h1 {
+  font-size: 68px;
+  font-weight: 300;
+}
+
+.projects-eyebrow {
+  font-family: var(--secondary-font);
+  font-size: 36px;
+  color: var(--secondary-color);
+}
+
+@media (max-width: 991.98px) {
+  .projects h1 {
+    font-size: 48px;
+  }
+  .projects h2 {
+    font-size: 28px;
+  }
+  .projects {
+    text-align: center;
+    padding: 20px 10px;
+  }
+}
