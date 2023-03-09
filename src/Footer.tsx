@@ -30,17 +30,6 @@ export default function Footer() {
       </a>
       <div className="footer">
         <div className="mt-2">
-          <a
-            href="mailto:kharris835@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-            className="text-decoration-none"
-            title="Email Kelsie"
-          >
-            kharris835@gmail.com
-          </a>
-        </div>
-        <div>
           This
           <a
             href="https://github.com/kharris835/portfolio-react"
