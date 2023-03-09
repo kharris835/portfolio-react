@@ -13,7 +13,7 @@ export default function Contact() {
             <a
               href="mailto:kharris835@gmail.com"
               target="_blank"
-              rel="nonreferrer"
+              rel="noreferrer"
               className="contact-link"
               title="Email Kelsie"
             >
@@ -25,7 +25,7 @@ export default function Contact() {
             <a
               href="https://www.linkedin.com/in/kelsieharris/"
               target="_blank"
-              rel="nonreferrer"
+              rel="noreferrer"
               className="contact-link"
               title="LinkedIn Profile"
             >
@@ -37,7 +37,7 @@ export default function Contact() {
             <a
               href="https://github.com/kharris835"
               target="_blank"
-              rel="nonreferrer"
+              rel="noreferrer"
               className="contact-link"
               title="GitHub Profile"
             >
