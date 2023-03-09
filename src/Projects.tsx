@@ -30,7 +30,7 @@ export default function Home() {
       id: 3,
       title: "React Portfolio (v3)",
       image: {
-        src: "images/coming-soon.jpeg",
+        src: "images/portfolio-react.png",
         height: "auto",
         width: 360,
       },
@@ -46,10 +46,21 @@ export default function Home() {
         width: 360,
       },
       tools: "JavaScript, HTML, and CSS",
-      website: "/",
+      website: "https://spontaneous-croquembouche-c44b06.netlify.app/",
     },
     {
       id: 5,
+      title: "Animal Facts Website",
+      image: {
+        src: "images/animal-facts.png",
+        height: "auto",
+        width: 360,
+      },
+      tools: "JavaScript, HTML, and CSS",
+      website: "https://sparkling-parfait-abd00f.netlify.app/",
+    },
+    {
+      id: 6,
       title: "Vanilla Weather App",
       image: {
         src: "images/weather.png",
@@ -57,10 +68,10 @@ export default function Home() {
         width: 360,
       },
       tools: "JavaScript, HTML, and CSS",
-      website: "/",
+      website: "https://aquamarine-mochi-3e5686.netlify.app/",
     },
     {
-      id: 6,
+      id: 7,
       title: "Portfolio (v1)",
       image: {
         src: "images/portfolio.png",
@@ -68,10 +79,10 @@ export default function Home() {
         width: 360,
       },
       tools: "HTML and CSS",
-      website: "/",
+      website: "https://courageous-rolypoly-1b63ff.netlify.app/",
     },
     {
-      id: 7,
+      id: 8,
       title: "Shiba Website",
       image: {
         src: "images/shiba.png",
@@ -79,10 +90,10 @@ export default function Home() {
         width: 360,
       },
       tools: "HTML and CSS",
-      website: "/",
+      website: "https://gleaming-babka-0ed82a.netlify.app/",
     },
     {
-      id: 8,
+      id: 9,
       title: "Pokédex",
       image: {
         src: "images/coming-soon.jpeg",
@@ -90,7 +101,7 @@ export default function Home() {
         width: 360,
       },
       tools: "React, TypeScript, HTML, and CSS",
-      website: "/",
+      website: null,
     },
   ];
   return (
