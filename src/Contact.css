@@ -18,3 +18,16 @@
   text-decoration: none;
   color: var(--secondary-color);
 }
+
+@media (max-width: 991.98px) {
+  .contact h1 {
+    font-size: 48px;
+  }
+  .contact h2 {
+    font-size: 28px;
+  }
+  .contact {
+    text-align: center;
+    padding: 30px 10px;
+  }
+}
