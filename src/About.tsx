@@ -63,7 +63,7 @@ export default function About() {
           </li>
         </ul>
       </p>
-      <p className="about-description">
+      {/* <p className="about-description">
         In my previous roles as an engineer in medical device design and
         aerospace manufacturing, I developed a keen eye for detail and a deep
         understanding of the importance of quality control. These skills have
@@ -82,7 +82,7 @@ export default function About() {
         and I'm eager to bring my unique background and perspective to the world
         of web design. If you're interested in working together, please don't
         hesitate to get in touch!
-      </p>
+      </p> */}
     </div>
   );
 }
