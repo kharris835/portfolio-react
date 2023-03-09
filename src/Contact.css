@@ -1,0 +1,15 @@
+.contact {
+  padding: 60px 80px;
+}
+
+.contact h1 {
+  font-size: 68px;
+  font-weight: 300;
+}
+
+.contact-eyebrow {
+  font-family: var(--secondary-font);
+  font-size: 36px;
+  color: var(--secondary-color);
+  font-weight: 300;
+}

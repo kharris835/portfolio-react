@@ -11,6 +11,7 @@
   font-family: var(--secondary-font);
   font-size: 36px;
   color: var(--secondary-color);
+  font-weight: 300;
 }
 
 @media (max-width: 991.98px) {
