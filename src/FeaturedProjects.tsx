@@ -35,9 +35,9 @@ export default function Home() {
       description:
         "A portfolio designed to showcase my range of projects and skills.  This website is a comprehensive representation of my abilities, highlighting my achievements and techincal competencies.",
       image: {
-        src: "images/coming-soon.jpeg",
+        src: "images/portfolio-react.png",
         height: "auto",
-        width: 300,
+        width: 448,
       },
       tools: "React, TypeScript, HTML, and CSS",
       website: "/",
